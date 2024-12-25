@@ -1,12 +1,11 @@
-// import { useState } from 'react'
-// import reactLogo from './assets/react.svg'
-// import viteLogo from '/vite.svg'
 import tbaLogo from '/tba_new.svg'
 import './App.css'
+import {useState} from "react";
 
 function App() {
   // const [count, setCount] = useState(0)
   // const [countTwo, setCountTwo] = useState(0)
+  const [test, setTest] = useState('Click Here')
 
   return (
     <>
@@ -16,6 +15,11 @@ function App() {
         </a>
       </div>
       <h1>This website is under development</h1>
+        <div className="card">
+            <button onClick={() => setTest((test) => test = 'The button is clicked!')}>
+                {test}
+            </button>
+        </div>
         {/*<div className="card">*/}
         {/*    <button onClick={() => setCount((count) => count + 1)}>*/}
         {/*        count is {count}*/}
