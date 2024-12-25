@@ -10,7 +10,7 @@ function App() {
   return (
     <>
       <div>
-        <a href="https://tba.winsanmwtv.me" target="_blank">
+        <a href="https://winsanmwtv.my.canva.site/better-tba-website" target="_blank">
           <img src={tbaLogo} className="logo" alt="TBA Logo" />
         </a>
       </div>
