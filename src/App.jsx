@@ -16,6 +16,7 @@ function App() {
       </div>
       <h1>This website is under development</h1>
         <div className="card">
+            {/* eslint-disable-next-line no-unused-vars */}
             <button onClick={() => setTest((test) => test = 'The button is clicked!')}>
                 {test}
             </button>
