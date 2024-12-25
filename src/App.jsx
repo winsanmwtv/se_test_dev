@@ -14,7 +14,7 @@ function App() {
           <img src={tbaLogo} className="logo" alt="TBA Logo" />
         </a>
       </div>
-      <h1>This website is under development</h1>
+      <p>This website is under development</p>
         <div className="card">
             {/* eslint-disable-next-line no-unused-vars */}
             <button onClick={() => setTest((test) => test = 'The button is clicked!')}>
